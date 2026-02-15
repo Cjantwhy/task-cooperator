@@ -1,0 +1,19 @@
+{
+  "name": "task-cooperator",
+  "version": "1.0.0",
+  "description": "极简实时协作任务看板",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "init-db": "node scripts/init-db.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2",
+    "pg": "^8.11.3",
+    "ioredis": "^5.3.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1"
+  }
+}
